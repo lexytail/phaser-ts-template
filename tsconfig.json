@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es6",
+    "baseUrl": ".",
+    "module": "commonjs",
+    "paths": {
+      "~/*": ["./*"]
+    },
+    "typeRoots": [
+      "/node_modules/@types",
+      "/typings"
+    ],
+  },
+  "exclude": ["node_modules"]
+}
